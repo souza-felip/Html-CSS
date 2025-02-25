@@ -17,7 +17,7 @@
     --cor06: #063d1e;
 
     --fonte-padrao: Arial, Verdana, Helvetica, Sans-serif;
-    --fonte-destaque: o', 'cursive';
+    --fonte-destaque: 'Bebas Neue', 'cursive';
     --fonte-titulos: 'Android', 'cursive';
 }
 
@@ -43,7 +43,7 @@ header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 3em;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 
 }
 
