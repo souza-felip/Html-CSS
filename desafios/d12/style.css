@@ -26,7 +26,8 @@ header {
 
 header > h1 {
     font-family: var(--font-titulo);
-    font-size: 120px;
+    font-size: 8vw;
+    font-variant: small-caps;
 }
 
 header > p {
@@ -38,7 +39,7 @@ header > p {
 
 body {
     font-family: var(--font-padrao);
-    font-size: 44px;
+    font-size: 3vw;
 }
 
 
@@ -46,30 +47,40 @@ body > p {
     padding: 40px;
 }
 
-div.normal {
-    padding-top: 45px;
+
+div {
+    padding-top: 10vh;
     padding-left: 30px;
-    padding-bottom: 80px;
+    padding-bottom: 10vh;
+    line-height: 2em;
 }
 
-section#conteiner1 {
+div#conteiner1 {
     background-image: url(pacote-d012/imagens/background001.jpg);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.282);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-div.conteudo {
+div.conteudo > p {
     color: white;
     padding-top: 10px;
     padding-left: 0px;
     padding-bottom: 15px;
-    background-color: rgba(0, 0, 0, 0.567);
-    max-width: 530px;
-    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.338);
+    padding: 5px;
+    display: inline-block;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0);
 }
 
-section#conteiner2 {
+div#conteiner2 {
     background-image: url(pacote-d012/imagens/background002.jpg);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.282);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    
 }
 
 
