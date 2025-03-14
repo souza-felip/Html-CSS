@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        caption {
+            margin: 10px
+        }
+        table {
+            width: 600px;
+            padding: 10px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas de exercícios</h1>   
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+             <th scope="col">Grupo</th>
+            <th scope="col">Nomes</th>
+            <th colspan="3" scope="colgroup">filmes</th> 
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Maria Joaquina</td>
+                <td>Minecraft</td>
+                <td>flow</td>
+                <td>Deadpool</td>
+            </tr>
+            <tr>
+                <td>Clarice de Matos</td>
+                <td>5 passos de você</td>
+                <td>Vingadores</td>
+                <td>Wall-e</td>
+            </tr>
+            <tr>
+                <td>Beatriz dos Reis</td>
+                <td>Cinderela</td>
+                <td>Velozes e Furisos</td>
+                <td>Gatos de Botas</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Rafael</td>
+                <td>Hora do Rush</td>
+                <td>Velozes e Furiosos</td>
+                <td>Breaking Bad</td>
+            </tr>
+            <tr>
+                <td>Vinicius</td>
+                <td>Branquelas</td>
+                <td>Circulo de Fogo</td>
+                <td>La casa de Papel</td>
+            </tr>
+            <tr>
+                <td>Felipe</td>
+                <td>Homem Aranha</td>
+                <td>Vingadores</td>
+                <td>One piece</td>
+            </tr>
+        </tbody>
+    </table>    
+</body>
+</html>
