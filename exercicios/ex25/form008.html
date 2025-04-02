@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+
+    <p>
+        <label for="n1">Números 1:</label>
+        <input type="number" name="number1" id="n1" min="0" max="20" required oninput="isoma.innerHTML = Number(n1.value) + Number(n2.value)">
+        
+
+    </p>
+
+    <p>
+        <label for="n2">Números 2:</label>
+        <input type="number" name="number2" id="n2" min="0" max="20" required oninput="isoma.innerHTML = Number(n1.value) + Number(n2.value)">
+    </p>
+
+    <p>
+        <label for="isoma">Soma:</label>
+        <output name="soma" id="isoma">0</output>
+    </p>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+</body>
+</html>

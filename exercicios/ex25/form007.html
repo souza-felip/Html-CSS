@@ -6,6 +6,45 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Exemplo de Formulário</h1> 
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <label for="iestado">Estado</label>
+        <select name="Estado" id="iestado">
+            <option value="" selected>--- Escolha ---</option>
+            <optgroup label="Região Sudeste">
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+            </optgroup>
+
+            <optgroup label="Região Norte">
+                <option value="PR">Pará</option>
+                <option value="AM">Amazonas</option>
+                <option value="AC">Acre</option>
+            </optgroup>
+        </select>
+
+    <p>
+        <label for="iprof">Profissão</label>
+        <input type="text" name="prof" id="iprof" list="listaprof">
+        <datalist id="listaprof">
+            <option>Administração</option>
+            <option>Engenharia</option>
+            <option>Mecânica</option>
+            <option>Autonomo</option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="imsg">Mensagem:</label> <br>
+        <textarea name="Mensagem" id="ismg" cols="30" rows="10"></textarea>
+
+    </p>
+    </form>   
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
 </body>
 </html>
